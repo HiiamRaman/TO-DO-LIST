@@ -1,0 +1,139 @@
+div {
+    font-family: 'Arial', sans-serif;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #b08080;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  body {
+    background: linear-gradient(to right, #303f9f, #ff7043);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  input {
+    width: calc(100% - 130px);
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-right: 10px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(0, 204, 0, 0.5);
+    outline: none;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:active {
+    background-color: #388e3c;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  ol {
+    padding-left: 20px;
+    list-style-type: decimal;
+    margin-top: 20px;
+  }
+  
+  li {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  li:hover {
+    background-color: #e8f5e9;
+  }
+  
+  span {
+    flex-grow: 1;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    word-wrap: break-word;
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin-left: 10px;
+    background-color: #f44336;
+    font-size: 14px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #d32f2f;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button {
+    background-color: #2196F3;
+  }
+  
+  button:hover {
+    background-color: #1976D2;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  @media (max-width: 600px) {
+    div {
+      padding: 15px;
+      max-width: 100%;
+    }
+  
+    input {
+      width: calc(100% - 120px);
+    }
+  
+    button {
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    ol {
+      padding-left: 15px;
+    }
+  }
+  
